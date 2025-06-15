@@ -1,0 +1,181 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Helvetica Neue', sans-serif;
+  background-color: #f9f9f9;
+  color: #111;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px 40px;
+  align-items: center;
+  background: white;
+  border-bottom: 1px solid #eee;
+}
+
+header .logo {
+  font-weight: bold;
+  font-size: 20px;
+}
+
+header nav ul {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+}
+
+header nav a {
+  text-decoration: none;
+  color: #111;
+  font-size: 14px;
+}
+
+.hero {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  padding: 50px 20px;
+}
+
+.hero-text h1 {
+  font-size: 36px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.hero-text p {
+  max-width: 600px;
+  margin: 0 auto 20px;
+  font-size: 14px;
+}
+
+.hero-img img {
+  width: 100%;
+  max-width: 900px;
+  margin: 20px auto;
+  display: block;
+  border-radius: 10px;
+}
+
+button {
+  padding: 10px 20px;
+  border: 1px solid #111;
+  background: none;
+  cursor: pointer;
+}
+
+.collection {
+  padding: 50px 20px;
+  text-align: center;
+}
+
+.car-cards {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  margin-top: 20px;
+  flex-wrap: wrap;
+}
+
+.car-card {
+  width: 200px;
+}
+
+.car-card img {
+  width: 200px;
+  height: 150px;
+  border-radius: 8px;
+}
+
+.showroom {
+  text-align: center;
+  padding: 50px 20px;
+}
+
+.showroom-img {
+  position: relative;
+  margin: 30px auto;
+}
+
+.showroom-img img {
+  width: 300px;
+  border-radius: 10px;
+}
+
+.showroom-img .left,
+.showroom-img .right {
+  position: absolute;
+  font-size: 30px;
+  font-weight: bold;
+  color: #111;
+}
+
+.showroom-img .left {
+  left: 0;
+  top: 40%;
+}
+
+.showroom-img .right {
+  right: 0;
+  top: 40%;
+}
+
+.boutique {
+  padding: 50px 20px;
+  text-align: center;
+}
+
+.shop-items {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.item img {
+  width: 120px;
+  height: 120px;
+  border-radius: 8px;
+}
+
+.limit-car {
+  margin-top: 40px;
+}
+
+.limit-car img {
+  width: 300px;
+  border-radius: 8px;
+}
+
+footer {
+  background: #fff;
+  padding: 40px 20px;
+  text-align: center;
+  border-top: 1px solid #eee;
+}
+
+.newsletter input {
+  margin-top: 10px;
+  padding: 10px;
+  width: 200px;
+  border: 1px solid #ccc;
+}
+
+.footer-bottom {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 30px;
+  flex-wrap: wrap;
+  font-size: 14px;
+}
+
+.footer-bottom .menu ul {
+  list-style: none;
+  padding: 0;
+}
